@@ -1,0 +1,1 @@
+This project explore the usage of the Jasmine unit test library for Javascript.
