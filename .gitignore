@@ -51,3 +51,6 @@ bower_components/
 
 # Yeoman
 .yo-rc.json
+
+#npm
+node_modules/
