@@ -18,9 +18,13 @@ module.exports = function(config) {
     frameworks: [
       "jasmine"
     ],
+	
+	reporters: ['kjhtml'],
 
     // list of files / patterns to load in the browser
     files: [
+	 'spec/*.js'
+	 //'index.html'
     ],
 
     // list of files / patterns to exclude
@@ -28,7 +32,7 @@ module.exports = function(config) {
     ],
 
     // web server port
-    port: 8080,
+    port: 8090,
 
     // Start these browsers, currently available:
     // - Chrome
@@ -39,12 +43,14 @@ module.exports = function(config) {
     // - PhantomJS
     // - IE (only Windows)
     browsers: [
-      "PhantomJS"
+      "Firefox"
     ],
 
     // Which plugins to enable
     plugins: [
-      "karma-phantomjs-launcher",
+      //"karma-phantomjs-launcher",
+	  "karma-firefox-launcher",
+	  "karma-jasmine-html-reporter",
       "karma-jasmine"
     ],
 
