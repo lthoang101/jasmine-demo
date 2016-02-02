@@ -1,0 +1,28 @@
+{
+  "name": "jasmine-demo",
+  "version": "1.0.0",
+  "description": "Explore Jasmine",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "run-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lthoang101/jasmine-demo.git"
+  },
+  "keywords": [
+    "jasmine",
+    "karma"
+  ],
+  "author": "lhoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lthoang101/jasmine-demo/issues"
+  },
+  "homepage": "https://github.com/lthoang101/jasmine-demo#readme"
+}
